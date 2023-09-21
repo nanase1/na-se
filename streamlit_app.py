@@ -17,3 +17,5 @@ if st.button("さあ、選べ、、、"):
     results=["古文","論国","数Ⅱ","物理","公共","地理","化学","数Ｂ"]
     result=random.choice(results)
     st.write(f"結果:{result}")
+
+ 
