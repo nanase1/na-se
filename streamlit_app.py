@@ -19,7 +19,7 @@ if st.button("さあ、選べ、、、"):
     st.write(f"結果:{result}")
 
 
-python
+
 import streamlit as st
 import random
 
@@ -42,6 +42,7 @@ elements = [
 # ガチャガチャの関数
 def gacha():
     return random.choice(elements)
+
 
 # Streamlitアプリケーション
 def main():
